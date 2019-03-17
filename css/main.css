@@ -1,14 +1,23 @@
+body
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	width: 100%;
+	height: 100%;
+	font-family: arial;
+}
+
 h1{
 	text-align: center;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	font-size: 50px;
-	font-family: arial;
 	color: white;
 	height: 100px;
 	line-height: 100px;
-	border: 10px solid black;
-	margin: 0px;
-	background-image: url("../img/header_background.png");
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: #557A95;
 	width: 100%;
 }
 
@@ -19,7 +28,7 @@ h1 span
 
 h2{
 	font-size: 30px;
-	font-family: arial;
+	margin-bottom: 10px;
 }
 
 ul {
@@ -27,7 +36,7 @@ ul {
    padding: 10px 0;
    margin-top: 0px; 
    margin-bottom: 50px;
-   background-color: lightgray;
+   background-color: #B1A296;
    text-align: center;
    width: 100%;
 
@@ -45,7 +54,7 @@ li a {
 }
 
 li a:hover {
-   background-color: gray;
+   background-color: #5D5C61;
    color: white;
 }
 
@@ -68,17 +77,17 @@ footer{
 
 .left-picture-description{
 	font-size: 20px;
-	font-family: arial;
 	padding-right: 120px;
 	text-align: left;
 	height: 300px;
-	position: relative;
+	margin-left: 0px;
 	bottom: 15px;
 }
 
 .left-picture{
 	float: left;
 	margin-right: 40px;
+	padding-left: 30px;
 	display: block;
 	max-width: 360px;
 }
