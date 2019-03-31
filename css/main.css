@@ -1,14 +1,14 @@
-body
-{
+body {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 0px;
 	width: 100%;
 	height: 100%;
 	font-family: arial;
+	background-color: #F8F8FF;
 }
 
-h1{
+h1 {
 	text-align: center;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	font-size: 50px;
@@ -21,12 +21,11 @@ h1{
 	width: 100%;
 }
 
-h1 span
-{
+h1 span {
 	text-align: center;
 }
 
-h2{
+h2 {
 	font-size: 30px;
 	margin-bottom: 10px;
 }
@@ -58,11 +57,7 @@ li a:hover {
    color: white;
 }
 
-body{
-	background-color: #F8F8FF;
-}
-
-footer{
+footer {
 	position: fixed;
 	bottom: 0;
 	text-align: center;
@@ -75,7 +70,14 @@ footer{
 	width: 100%;
 }
 
-.left-picture-description{
+input[type=text], textarea {
+	padding: 5px;
+	margin: 10px;
+	border-radius: 5px;
+	width: 30%;
+}
+
+.left-picture-description {
 	font-size: 20px;
 	padding-right: 120px;
 	text-align: left;
@@ -84,12 +86,26 @@ footer{
 	bottom: 15px;
 }
 
-.left-picture{
+.left-picture {
 	float: left;
 	margin-right: 40px;
 	padding-left: 30px;
 	display: block;
 	max-width: 360px;
+}
+
+#form-box {
+	text-align: center;
+	background-color: #CCCCCC;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: 30px;
+	border-radius: 15px;
+
+}
+
+#long-input {
+	height: 50px;
 }
 
 
