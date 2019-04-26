@@ -4,24 +4,38 @@
 		<link href="../css/main.css" type="text/css" rel="stylesheet">
 	</head>
 	<body>
-		<h1><span>Manuel Rivas's Website</span></h1>
+		<h1><span>Manuel Rivas's Portfolio</span></h1>
 		<ul>
 		  <li><a href="../index.html">Home</a></li>
 		  <li><a href="projects.html">Projects</a></li>
 		  <li><a href="experiences.html">Experiences</a></li>
+		  <li><a href="travels.html">Travels</a></li>
 		  <li><a href="contact.html">Contact Me</a></li>
 		  <li><a href="https://github.com/mgrsk" target="_blank">My Github</a>
 		</ul>
-		<div>
-			<img class="left-picture" src="../img/tunnel_man.png" alt="A screenshot of the TunnelMan video game.">
-			<h2>TunnelMan</h2>
-			<p class="left-picture-description">
-				<em>TunnelMan</em> is a video game designed in C++ that I made for my Advanced C++ class. It is similar to the 80's arcade game Dig Dug, and features a man digging around earth to find oil barrels. Collect all the barrels, and you move on to the next level. There are a variety of power-ups to collect along the way to help you avoid the enemies, called <em>protesters</em>. This game was the final project for the class, and I was given a more than 50-page specification on how the game should play. I was also given a framework that was sort of a game engine to help me develop it. The framework handled a few of the low-level details, but I had to design almost everything else. I created classes for the on-screen objects, defined how user input affects the game, made it so the player could pick up items, created hitboxes, programmed the AI, and many other things. Because our class got behind during the semester, we had 3 weeks to do this project instead of the usual 4, so unfortunately I had to rush some parts. Thankfully though, I managed to finish it. It plays exactly as the specification required it to and it's fully functional and playable. My portion ended up being more than 2,000 lines! You can see the source code <a href="https://github.com/mgrsk/CS30_Tunnel_Man" target="_blank">here</a>.
-			</p>
-
-			
-		
+		<div class="wrapper">
+			<div>
+				<img class="left-side-small" src="../img/tunnel_man.png" alt="A screenshot of the TunnelMan video game.">
+				<div class="right-side-large">
+					<h2>TunnelMan</h2>
+					<p>
+						<em>TunnelMan</em> is a video game designed in C++ that I made for my Advanced C++ class. It is similar to the 80's arcade game Dig Dug, and features a man digging around earth to find oil barrels. Collect all the barrels, and you move on to the next level. There are a variety of power-ups to collect along the way to help you avoid the enemies, called <em>protesters</em>. This game was the final project for the class, and I was given a more than 50-page specification on how the game should play. I was also given a framework that was sort of a game engine to help me develop it. The framework handled a few of the low-level details, but I had to design almost everything else. I created classes for the on-screen objects, defined how user input affects the game, made it so the player could pick up items, created hitboxes, programmed the AI, and many other things. Because our class got behind during the semester, we had 3 weeks to do this project instead of the usual 4, so unfortunately I had to rush some parts. Thankfully though, I managed to finish it. It plays exactly as the specification required it to and it's fully functional and playable. My portion ended up being more than 2,000 lines! You can see the source code <a href="https://github.com/mgrsk/CS30_Tunnel_Man" target="_blank">here</a>.
+					</p>
+				</div>
+			</div>
+			<br>
+			<div>
+				<img class="right-side-small" src="../img/graph.png" alt="A screenshot of the autograder giving feedback.">
+				<div class="left-side-large">
+					<h2>Autograder 2.0</h2>
+					<p>
+						Autograder 2.0 is a system designed to automatically grade embedded systems assignments in UCLA's Electrical and Computer Engineering (ECE) department, specifically an assignment involving PWM wave generation. The student programs a microcontroller to generate PWM waves to a specification given by the professor. If grading manually, the professor would have set up many connections just to test one student's board. If the result is incorrect, there wouldn't much feedback other than the fact that it's wrong. This is a time-consuming process, so the Networked and Embedded System's Lab (NESL) in ECE designed Autograder 1.0, which allowed students to upload code on a website that would grade it. The problem is that the website was connected to only a few microcontrollers in the lab, so wait times for feedback could go over an hour if many students were using it at the same time. That's where my project, Autograder 2.0, comes in. This one allows every student to have their own board, which can communicate the website independently. This allows for instant feedback, which is displayed on the image to the left. 
+						 <a href="https://github.com/nesl/autograder2.0" target="_blank">here</a>.
+					</p>
+				</div>
+			</div>
 		</div>
+		<br><br><br><br>
 		<footer>&copy Manuel Rivas 2019</footer>
 
 	</body>
