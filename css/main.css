@@ -4,14 +4,9 @@ body {
 	font-size: 20px;
 	width, height: 100%;
 	font-family: arial;
-	background-color: #F8F8FF;
+	background-color: #FAFAFA
 }
 
-.wrapper {
-	margin: 0px 10px 0px 10px;
-	overflow: hidden;
-	max-width: 100%
-}
 
 h1 {
 	text-align: center;
@@ -50,7 +45,6 @@ h4 {
 	font-size: 70px;
 	margin-bottom: 10px;
 	margin-top: 0px;
-	
 	width: 100%;
 }
 
@@ -65,7 +59,7 @@ ul {
    padding: 10px 0;
    margin-top: 0px; 
    margin-bottom: 20px;
-   background-color: #B1A296;
+   background-color: #0288D1;
    text-align: center;
    width: 100%;
 
@@ -110,11 +104,33 @@ img {
 	height: 300px;
 	width: 300px;
 	max-height, max-width: 100%;
-	
 }
 
 div {
 	margin-bottom: 50px;
+}
+
+.wrapper {
+	margin: 0px;
+	padding: 0px 10px 0px 10px;
+	/*overflow: hidden;*/
+	max-width: 100%
+}
+
+.first-content, .second-content, .third-content {
+	overflow: hidden;
+}
+
+.first-content {
+	background-color: #E3F2FD;
+}
+
+.second-content {
+	background-color: #E0F2F1;
+}
+
+.third-content {
+	background-color: #EDE7F6;
 }
 
 
@@ -153,12 +169,12 @@ div {
 
 #form-box {
 	text-align: center;
-	background-color: #CCCCCC;
+	background-color: #B2DFDB;
 	margin-left: 20%;
 	margin-right: 20%;
 	padding: 30px;
 	border-radius: 15px;
-
+	margin-bottom: 200px;
 }
 
 #long-input {
